@@ -1,0 +1,247 @@
+body{
+    font-family: sans-serif;
+    background-image: url("../imgs/registerBG2.jpg");
+    background-size: cover;
+    background-color: #ffffff;
+    color: #555;
+    
+}
+#sum-h1{
+    padding: 50px 450px;
+    padding-bottom: 2px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+.my-links{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid;
+    padding:0 20px;
+    float: left;
+    box-sizing: content-box;
+}
+.my-link{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid;
+    padding:0 20px;
+    float: bottom;
+    box-sizing: border-box;
+}
+.go-back{
+    padding-right: 60%;
+    float: right;
+    border: none;
+    border-left-style: outset;
+}
+.reg-summary{
+    padding-left: 30px;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem 8rem;
+    border-radius: 5px;
+}
+.reg-summary tr{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 5px;
+   
+}
+.register-now{
+    border: 1px black;   
+    padding-top: 20px;
+    padding-left: 600px;
+ }
+ 
+.clr{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.main-block{
+     float: left;
+    width: 70%;
+
+}
+.block{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.pos-link{
+    margin-top:60%;
+}
+
+.my-table{
+   border-collapse: collapse; 
+   margin: 25px 0;
+   font-size: 0.9em;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px #555;
+}
+.my-table thead tr{
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.my-table th,.my-table td{
+    padding: 12px 15px;
+}
+.my-table tbody tr{
+   border-bottom: 1px solid #dddddd;
+}
+.my-table tbody tr.active-row{
+   font-weight: bold;
+   color: #009879;
+} 
+.my-table tbody tr:nth-of-type(even){
+   background-color: #f3f3f3;
+}
+.my-table tbody tr:last-of-type{
+   border-bottom: 2px solid #009879;
+}
+.container h2{
+    color: white;
+}
+.submission-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.submission-form label{
+    color: darkblue;
+    display: block;
+    padding: .1rem 0 .25rem;
+}
+.submission-form input{
+    display: block;
+    width: 100%;
+    border: 2px solid #2980B9;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#submitBtn{
+    border: 0; 
+    background: #343050;
+    padding: .5rem;
+    color: white;
+    margin: 4px 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s background ease;
+    hover{
+        background: red;
+    }
+}
+
+#error{
+    color: green;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+::placeholder{
+    color: #fff;
+}
+#main-header{
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 25px 40px;
+    background-color: #673AB7;
+    overflow: hidden;
+}
+.main-header h1{
+    float: left;
+    font: normal 24px/1.5 'Open Sans', sans-serif;
+    color: white;
+}
+#navbar{
+    background-color:rgba(48, 46, 46, 0.856);
+    color:#fff;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    background-size : 960px;
+    /*background-repeat: no-repeat;*/
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.button{
+    margin-top:5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding:2px;
+    border: none;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color: white;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#main-footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media(max-width : 600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
